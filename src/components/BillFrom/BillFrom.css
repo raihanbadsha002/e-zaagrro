@@ -1,0 +1,70 @@
+.bill__title {
+  color: black !important;
+}
+.bill__card {
+  position: relative;
+}
+.bill__card__before {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  height: 3rem;
+  top: -0.9rem;
+  left: 35.4rem;
+  transform: rotate(45deg);
+  background: #fff;
+}
+.bill__icon {
+  color: goldenrod;
+  font-size: 1.4rem;
+}
+.text-end {
+  text-align: end;
+}
+.custom_delivery_title {
+  font-weight: 500;
+}
+.custom__text__color {
+  color: #7b7575e3;
+}
+.alert__icon {
+  color: #b1adad;
+}
+.DatePicker__input {
+  background: #dc3545 !important;
+  border: 1px solid #dc3545 !important;
+  padding: 0.4em 0.8em;
+  font-family: inherit;
+  text-align: center;
+  font-size: 1rem !important;
+  color: white !important;
+  border-radius: 5px !important;
+  cursor: pointer;
+}
+.DatePicker__input::placeholder {
+  color: white !important;
+}
+
+/* Media Q************* */
+@media (max-width: 1024px) { 
+  .bill__card__before {
+    left: 29.4rem; 
+}
+   }
+
+   @media (max-width: 768px) { 
+    .bill__card__before {
+      left: 22.4rem; 
+  }
+  }
+  @media (max-width: 380px) { 
+    .bill__card__before {
+      left: 11.4rem;
+  }
+  }
+
+
+
+
+
+

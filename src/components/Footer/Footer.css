@@ -1,0 +1,20 @@
+.footer{
+    background: #6e4320;
+}
+.nav-item{
+list-style: none !important;
+}
+.nav-item a{
+color: #fff;
+}
+.social__icon span{
+    color: #fff;
+    transition: all .3s ease-in-out;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.social__icon span:hover{
+    color: goldenrod;
+    
+}

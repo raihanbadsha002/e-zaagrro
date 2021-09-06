@@ -1,0 +1,35 @@
+.top__nav__bar {
+  background-color: goldenrod;
+}
+.form-select {
+  color: #ffffff !important;
+  background-color: #fff0 !important;
+  border: 1px solid #ced4da00 !important;
+  background-image: none !important;
+  cursor: pointer;
+}
+.form-select:focus {
+  box-shadow: none !important;
+}
+option {
+  background-color: goldenrod !important;
+  cursor: pointer;
+}
+.custom__selector {
+  position: relative;
+}
+.custom__selector_icon {
+  position: absolute;
+  left: 45px;
+  top: 1px;
+  font-size: 1.2rem;
+}
+.custom__selector2 {
+  position: relative;
+}
+.custom__selector_icon2 {
+  position: absolute;
+  left: 90px;
+  top: 2px;
+  font-size: 1.2rem;
+}

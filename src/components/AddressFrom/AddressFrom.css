@@ -1,0 +1,150 @@
+.address__from {
+  margin-bottom: 10rem !important;
+}
+.custom__title {
+  font-weight: 500;
+  color: gray;
+}
+.custom__margin {
+  margin: 0 8rem;
+}
+.shipping__title {
+  color: black !important;
+}
+.custom__filed label {
+  font-weight: 500;
+}
+.custom__filed {
+  position: relative;
+}
+.custom__before__filed {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  height: 3rem;
+  top: -0.9rem;
+  left: 22.5rem;
+  transform: rotate(45deg);
+  background: #fff;
+}
+
+/* Media Q************* */
+
+@media (max-width: 1200px) {
+  .address__from {
+    margin-bottom: 39.1rem !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .address__from {
+    margin-bottom: 38.6rem !important;
+  }
+  .custom__selector_icon2 {
+    left: 96px;
+}
+  .custom__before__filed {
+    left: 16.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+.custom__before__filed {
+  left: 8.5rem !important;
+}
+.nav-item a {
+  color: #fff;
+  font-size: .6rem;
+}
+}
+
+@media (max-width: 576px) {
+  .custom__before__filed {
+    left: 3.5rem !important;
+  }
+  .header__logo, .footer__logo{
+    width: 20%;
+  }
+  .shop__icons span {
+    font-size: 1rem; 
+}
+.product__count, .product__like {
+  font-size: .3rem !important;
+  right: -2px;
+  padding: .1rem .2rem;
+}
+.input-group > .form-control,
+.input-group > .form-file,
+.input-group > .form-select {
+  height: 40px;
+}
+.social__icon span {
+  font-size: .5rem;
+}
+.nav-item a {
+  font-size: .4rem;
+}
+}
+
+
+
+@media (max-width: 540px) {
+  .header__logo, .footer__logo{
+    width: 20%;
+  }
+  .shop__icons span {
+    font-size: 1rem; 
+}
+.product__count, .product__like {
+  font-size: .3rem !important;
+  right: -2px;
+  padding: .1rem .2rem;
+}
+.input-group > .form-control,
+.input-group > .form-file,
+.input-group > .form-select {
+  height: 40px;
+}
+.custom__before__filed {
+  left: 3.5rem !important;
+}
+.social__icon span {
+  font-size: .5rem;
+}
+.nav-item a {
+  font-size: .4rem;
+}
+}
+
+@media (max-width: 380px) {
+  .custom__before__filed {
+    left: 3.5rem !important;
+  }
+  .custom__margin {
+    margin: 0 3rem;
+}
+  .custom-flex-column{
+    flex-direction: column;
+    font-size: .8rem;
+  }
+  .search__input {
+    width: 80%;
+    margin: 1rem 0;
+}
+.header__logo, .footer__logo{
+  width: 50% !important;
+}
+.nav-item a {
+  color: #fff;
+  font-size: 0.32rem !important;
+}
+.social__icon span {
+  font-size: .8rem !important;
+}
+.custom__title{
+  font-size: .8rem;
+}
+
+}
+
+
